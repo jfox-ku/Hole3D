@@ -14,13 +14,15 @@ public class GameControllerScript : MonoBehaviour {
     public Text ScoreText;
     private int[] levelBoxNum;
     private int currentLevelScore;
+    public GameObject[] ArenaHolders;
     public GameObject[] Doors; 
 
     private void Awake() {
         init();
         level = 0;
         currentLevelScore = 0;
-        levelBoxNum = new int[3] { 144, 10, 10 };
+        levelBoxNum = new int[3] { 144, 224, 10 };
+        
     }
 
     private void init() {
@@ -74,6 +76,9 @@ public class GameControllerScript : MonoBehaviour {
         level++;
         player.moveToNextLevel();
         currentLevelScore = 0;
+        Debug.Log("Spawning next level: "+level);
+        ArenaHolders[level].SetActive(true);
+        ScoreText.text = "" + (levelBoxNum[level] - currentLevelScore) + " left!";
     }
 
     private void raiseTheGates() {
@@ -90,6 +95,5 @@ public class GameControllerScript : MonoBehaviour {
         mainCam.transform.position = newPos;
     }
 
-    
 
 }

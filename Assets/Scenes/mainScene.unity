@@ -4695,6 +4695,10 @@ MonoBehaviour:
   player: {fileID: 709331253}
   level: 0
   ScoreText: {fileID: 733459947}
+  ArenaHolders:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   Doors:
   - {fileID: 670024910}
   - {fileID: 1630659232}
@@ -5188,7 +5192,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gcs: {fileID: 630846569}
-  step: 0.5
+  step: 0.1
 --- !u!4 &714277890 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4521046378988218, guid: a3a78f7c3e984ef4c88ec2c7bce3f371,
@@ -5838,6 +5842,34 @@ Transform:
   m_PrefabParentObject: {fileID: 4521046378988218, guid: a3a78f7c3e984ef4c88ec2c7bce3f371,
     type: 2}
   m_PrefabInternal: {fileID: 1191490352}
+--- !u!1 &802985175
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 802985176}
+  m_Layer: 0
+  m_Name: arenaHolder1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &802985176
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 802985175}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.397455, y: 21.899115, z: 16.0872}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &804018974 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4521046378988218, guid: a3a78f7c3e984ef4c88ec2c7bce3f371,
@@ -9858,6 +9890,34 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a3a78f7c3e984ef4c88ec2c7bce3f371, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1658053282
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1658053283}
+  m_Layer: 0
+  m_Name: arenaHolder3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1658053283
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1658053282}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.397455, y: 21.899115, z: 16.0872}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1666490231 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4521046378988218, guid: a3a78f7c3e984ef4c88ec2c7bce3f371,
@@ -12373,6 +12433,34 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b98ce86c0bf2cb84990bd1d60c5736c5, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &2120168932
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2120168933}
+  m_Layer: 0
+  m_Name: arenaHolder2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2120168933
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2120168932}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.397455, y: 21.899115, z: 16.0872}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2122650198
 Prefab:
   m_ObjectHideFlags: 0
